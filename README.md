@@ -6,3 +6,16 @@ A boilerplate to create frameless (custom window) NodeWebkit application
 - Frameless window with close, minimize and maximize buttons
 - System default menu
 - Gulp task for packaging and distribute the application
+
+### Usage
+
+#### Development:
+Edit index.html, js/boilerplate.js and css/style.css to fit with your application
+
+#### Distribution:
+- run commands below
+ ```
+ $ npm install
+ $ gulp deploy
+ ```
+- you will git your built application under `./build` directory
