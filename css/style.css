@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title-bar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  background-color: #424242;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.buttons {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 10px;
+}
+
+.buttons > .close {
+  background-color: #CE1217;
+  border-radius: 15px;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  float: left;
+}
+
+.buttons > .minimize {
+  background-color: #E48C6C;
+  border-radius: 15px;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+}
+
+.buttons > .maximize {
+  background-color: #0D8F54;
+  border-radius: 15px;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+}
+
+.buttons > .close:hover:after {
+  content: 'x';
+  color: #940004;
+  position: relative;
+  top: -2px;
+}
+
+.buttons > .minimize:hover:after {
+  content: '-';
+  color: #AD4D2A;
+  position: relative;
+  top: -2px;
+}
+
+.buttons > .maximize:hover:after {
+  content: '+';
+  color: #095734;
+  position: relative;
+  top: -1px;
+}
+
+.content {
+  -webkit-user-select: auto;
+  -webkit-app-region: none;
+}

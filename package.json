@@ -1,0 +1,13 @@
+{
+  "name": "nwjs-boilerplate",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": false
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-webkit-builder": "^1.0.11"
+  }
+}
