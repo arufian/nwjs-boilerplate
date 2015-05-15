@@ -14,8 +14,8 @@ Edit index.html, js/boilerplate.js and css/style.css to fit with your applicatio
 
 #### Distribution:
 - run commands below
- ```
- $ npm install
- $ gulp deploy
- ```
-- you will git your built application under `./build` directory
+```shell
+$ npm install
+$ gulp deploy
+```
+- you will get your built application under `./build` directory
