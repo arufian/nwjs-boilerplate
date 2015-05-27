@@ -7,15 +7,6 @@ nativeMenuBar.createMacBuiltin("My App");
 appWindow.menu = nativeMenuBar;
 
 // Button
-var buttons = document.querySelector('.buttons');
-var buttonsLabel = document.querySelector('.buttons-label');
-var hoverIn = function(e) {
-  buttonsLabel.style.visibility = 'visible';
-}
-var hoverOut = function(e) {
-  buttonsLabel.style.visibility = 'hidden';
-}
-
 var closeBtn  = document.getElementById('close-btn');
 closeBtn.addEventListener('click', function(e) {
   console.log('close');
