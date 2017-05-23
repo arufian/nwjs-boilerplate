@@ -1,5 +1,7 @@
 ### NodeWebkit (NWJs) Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/arufian/nwjs-boilerplate.svg)](https://greenkeeper.io/)
+
 A boilerplate to create frameless (custom window) NodeWebkit application
 
 ### Features
